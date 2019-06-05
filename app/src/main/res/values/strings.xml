@@ -9,4 +9,5 @@
     <string name="multiplica">Multiplicar</string>
     <string name="divide">Dividir</string>
     <string name="resultado">Resultado</string>
+    <string name="operar">Operar</string>
 </resources>

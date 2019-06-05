@@ -80,7 +80,9 @@ public class MainActivity extends AppCompatActivity {
 
         resulta.setText(resu);
     }
-
+ public void salir(View v){
+        finish();
+ }
     public void acercade(View v) {
         Intent acerca =new Intent(this,acercade.class);
         startActivity(acerca);
