@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Operaciones Básicas ITLA</string>
+    <string name="app_name">OB Calc ITLA</string>
     <string name="about">Aplicacion desarrollada en el curso de aplicaciones moviles del ITLA Bonao</string>
     <string name="salir">Salir</string>
     <string name="num2">Ingrese numero 2</string>
