@@ -17,7 +17,7 @@
         android:layout_marginStart="16dp"
         android:layout_marginTop="16dp"
         android:ems="10"
-        android:hint="Ingrese numero 2"
+        android:hint="@string/num2"
         android:inputType="numberDecimal"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/et1" />
@@ -30,7 +30,7 @@
         android:layout_marginStart="16dp"
         android:layout_marginTop="16dp"
         android:ems="10"
-        android:hint="Ingrese numero 1"
+        android:hint="@string/num1"
         android:inputType="numberDecimal"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -42,7 +42,7 @@
         android:layout_marginLeft="16dp"
         android:layout_marginStart="16dp"
         android:layout_marginTop="16dp"
-        android:text="Sumar"
+        android:text="@string/sumar"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/et2" />
 
@@ -53,7 +53,7 @@
         android:layout_marginLeft="67dp"
         android:layout_marginStart="67dp"
         android:layout_marginTop="16dp"
-        android:text="Restar"
+        android:text="@string/restar"
         app:layout_constraintStart_toEndOf="@+id/cb1"
         app:layout_constraintTop_toBottomOf="@+id/et2" />
 
@@ -64,7 +64,7 @@
         android:layout_marginLeft="16dp"
         android:layout_marginStart="16dp"
         android:layout_marginTop="16dp"
-        android:text="Multiplicar"
+        android:text="@string/multiplica"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/cb1" />
 
@@ -75,7 +75,7 @@
         android:layout_marginLeft="43dp"
         android:layout_marginStart="43dp"
         android:layout_marginTop="16dp"
-        android:text="Dividir"
+        android:text="@string/divide"
         app:layout_constraintStart_toEndOf="@+id/cb3"
         app:layout_constraintTop_toBottomOf="@+id/cb2" />
 
@@ -98,7 +98,23 @@
         android:layout_marginLeft="16dp"
         android:layout_marginStart="16dp"
         android:layout_marginTop="25dp"
-        android:text="Resultado"
+        android:text="@string/resultado"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button" />
+
+    <ImageButton
+        android:id="@+id/btnacercade"
+        android:layout_width="198dp"
+        android:layout_height="128dp"
+        android:layout_marginStart="89dp"
+        android:layout_marginLeft="89dp"
+        android:layout_marginTop="157dp"
+        android:layout_marginEnd="124dp"
+        android:layout_marginRight="124dp"
+        android:layout_marginBottom="159dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button"
+        app:srcCompat="@android:drawable/ic_dialog_info" />
 </android.support.constraint.ConstraintLayout>

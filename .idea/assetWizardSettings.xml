@@ -51,8 +51,7 @@
                                             <option name="values">
                                               <map>
                                                 <entry key="color" value="000000" />
-                                                <entry key="scalingPercent" value="66" />
-                                                <entry key="trimmed" value="true" />
+                                                <entry key="scalingPercent" value="117" />
                                               </map>
                                             </option>
                                           </PersistentState>
@@ -63,7 +62,6 @@
                                   <option name="values">
                                     <map>
                                       <entry key="foregroundImage" value="E:\onedriveUasd\OneDrive - Universidad Autonoma de Santo Domingo\Escritorio\operaciones-basicas.png" />
-                                      <entry key="previewDensity" value="MEDIUM" />
                                     </map>
                                   </option>
                                 </PersistentState>
@@ -80,11 +78,32 @@
                                             <option name="values">
                                               <map>
                                                 <entry key="color" value="000000" />
+                                                <entry key="trimmed" value="true" />
                                               </map>
                                             </option>
                                           </PersistentState>
                                         </value>
                                       </entry>
+                                      <entry key="image">
+                                        <value>
+                                          <PersistentState>
+                                            <option name="values">
+                                              <map>
+                                                <entry key="color" value="000000" />
+                                                <entry key="trimmed" value="true" />
+                                              </map>
+                                            </option>
+                                          </PersistentState>
+                                        </value>
+                                      </entry>
+                                    </map>
+                                  </option>
+                                  <option name="values">
+                                    <map>
+                                      <entry key="assetType" value="IMAGE" />
+                                      <entry key="backgroundColor" value="2c65ff" />
+                                      <entry key="dogEared" value="true" />
+                                      <entry key="imageAsset" value="E:\onedriveUasd\OneDrive - Universidad Autonoma de Santo Domingo\Escritorio\operaciones-basicas.png" />
                                     </map>
                                   </option>
                                 </PersistentState>
@@ -113,12 +132,22 @@
                             </entry>
                           </map>
                         </option>
+                        <option name="values">
+                          <map>
+                            <entry key="outputIconType" value="LAUNCHER_LEGACY" />
+                          </map>
+                        </option>
                       </PersistentState>
                     </value>
                   </entry>
                 </map>
               </option>
             </PersistentState>
+          </value>
+        </entry>
+        <entry key="vectorWizard">
+          <value>
+            <PersistentState />
           </value>
         </entry>
       </map>

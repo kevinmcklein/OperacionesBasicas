@@ -1,5 +1,6 @@
 package com.eurekatech.operacionesbasicas;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.KeyEvent;
@@ -78,6 +79,11 @@ public class MainActivity extends AppCompatActivity {
         }
 
         resulta.setText(resu);
+    }
+
+    public void acercade(View v) {
+        Intent acerca =new Intent(this,acercade.class);
+        startActivity(acerca);
     }
 
 }
